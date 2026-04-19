@@ -1,7 +1,9 @@
 # Dependências
 node_modules/
 vendor/
-/terraform/providers/registry.terraform.io/hashicorp
+*.tfstate
+*.tfstate.*
+.terraform/
 
 # Arquivos de ambiente/sensíveis
 .env
