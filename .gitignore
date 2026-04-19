@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+vendor/
+
+# Arquivos de ambiente/sensíveis
+.env
+.env.local
+config.json
+*.ps1
+
+# Arquivos de sistema/IDE
+.DS_Store
+.vscode/
+.idea/
+*.suo
+
+# Logs e arquivos temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+build/
+dist/
