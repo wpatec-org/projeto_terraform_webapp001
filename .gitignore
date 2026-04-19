@@ -1,12 +1,14 @@
 # Dependências
 node_modules/
 vendor/
+/terraform/providers/registry.terraform.io/hashicorp
 
 # Arquivos de ambiente/sensíveis
 .env
 .env.local
 config.json
 *.ps1
+*.terraform.tfstate
 
 # Arquivos de sistema/IDE
 .DS_Store
